@@ -364,21 +364,7 @@ if __name__ == "__main__":
 4. **Build debugging skills** - Use errify as a teaching tool
 5. **Graduate slowly** - Eventually show standard errors too
 
-## Project Structure
 
-```
-errify/
-├── errify.py           # Main library
-├── setup.py            # Installation configuration
-├── README.md           # This file
-├── LICENSE             # MIT License
-├── examples/
-│   ├── basic_usage.py
-│   ├── custom_handlers.py
-│   └── teaching_example.py
-└── tests/
-    └── test_errify.py
-```
 
 ## Contributing
 
@@ -542,27 +528,10 @@ SOFTWARE.
 - **Email**: divakarbabu369@gmail.com
 - **Feature requests**: [GitHub Issues](https://github.com/DivakarBabuMP/errify/issues)
 
-## Related Projects
-
-- [friendly-traceback](https://github.com/friendly-traceback/friendly-traceback) - Another friendly error explainer
-- [better-exceptions](https://github.com/Qix-/better-exceptions) - More readable Python tracebacks
-- [PrettyErrors](https://github.com/onelivesleft/PrettyErrors) - Beautiful terminal error output
-
-## Citation
-
-If you use errify in academic work, please cite:
-
-```bibtex
-@software{errify2024,
-  author = {DivakarBabuMP},
-  title = {errify: Human-Readable Error Handler for Python},
-  year = {2024},
-  url = {https://github.com/DivakarBabuMP/errify}
-}
-```
 
 ---
 
 **Made with care for Python learners everywhere**
 
 *Stop debugging. Start learning.*
+

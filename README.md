@@ -1,4 +1,9 @@
 # errify – Human-Readable Error Handler for Python
+
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code style: beginner-friendly](https://img.shields.io/badge/code%20style-beginner--friendly-brightgreen.svg)](https://github.com/DivakarBabuMP/errify)
+
 Transform confusing Python error messages into clear, beginner-friendly explanations.
 
 ## Table of Contents
@@ -336,6 +341,10 @@ That's it! Now all student code shows helpful errors.
 ### Assignment Template
 
 ```python
+"""
+Assignment: [Your Assignment Name]
+Student: [Student Name]
+"""
 
 import errify  # Makes errors easy to understand!
 
@@ -355,6 +364,21 @@ if __name__ == "__main__":
 4. **Build debugging skills** - Use errify as a teaching tool
 5. **Graduate slowly** - Eventually show standard errors too
 
+## Project Structure
+
+```
+errify/
+├── errify.py           # Main library
+├── setup.py            # Installation configuration
+├── README.md           # This file
+├── LICENSE             # MIT License
+├── examples/
+│   ├── basic_usage.py
+│   ├── custom_handlers.py
+│   └── teaching_example.py
+└── tests/
+    └── test_errify.py
+```
 
 ## Contributing
 
@@ -391,7 +415,7 @@ Open an issue with:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/errify.git
+git clone https://github.com/DivakarBabuMP/errify.git
 cd errify
 
 # Create virtual environment
@@ -481,7 +505,29 @@ errify formatted exception: 0.003ms
 Overhead: ~0.002ms (negligible)
 ```
 
+## License
 
+MIT License
+
+Copyright (c) 2024 DivakarBabuMP
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Acknowledgments
 
@@ -496,5 +542,27 @@ Overhead: ~0.002ms (negligible)
 - **Email**: divakarbabu369@gmail.com
 - **Feature requests**: [GitHub Issues](https://github.com/DivakarBabuMP/errify/issues)
 
-#   e r r i f y  
- 
+## Related Projects
+
+- [friendly-traceback](https://github.com/friendly-traceback/friendly-traceback) - Another friendly error explainer
+- [better-exceptions](https://github.com/Qix-/better-exceptions) - More readable Python tracebacks
+- [PrettyErrors](https://github.com/onelivesleft/PrettyErrors) - Beautiful terminal error output
+
+## Citation
+
+If you use errify in academic work, please cite:
+
+```bibtex
+@software{errify2024,
+  author = {DivakarBabuMP},
+  title = {errify: Human-Readable Error Handler for Python},
+  year = {2024},
+  url = {https://github.com/DivakarBabuMP/errify}
+}
+```
+
+---
+
+**Made with care for Python learners everywhere**
+
+*Stop debugging. Start learning.*
